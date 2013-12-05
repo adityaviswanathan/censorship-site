@@ -10,13 +10,13 @@
     <!-- START DEPENDENCIES -->
 
     
-    <link href="scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="test/css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="test/css">
+
+    <link href="bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="test/css">
 
     <link href="style.css" rel="stylesheet" type="test/css">
 
-    <script src="scripts/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
-
-    <script src="scripts/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
 
     <!-- END DEPENDENCIES -->
 
@@ -24,8 +24,55 @@
 
   <body> 
 
-  	<h1 class="test">HI</h1>
+  	<div class="container">
+
+
+  	<div class="col-md-12 page-header"> 
+  		<h1>Internet Censorship <small> CS181W</small> </h1>
+  	</div>
+
+  	<div class="jumbotron col-md-8 col-md-offset-2">
+	  <p class="headline">Internet censorship has far-reaching effects on government, society, and the individual. In addition to threatening fundamental rights, censorship can create friction amongst affected populations. </p>
+	  <div class="col-md-4 censorship-item" style="text-align:center;font-size:50px;"><span class="glyphicon glyphicon-remove"></span></div>
+	  <div class="col-md-4 revolutions-item" style="text-align:center;font-size:50px;"><span class="glyphicon glyphicon-registration-mark"></span></div>
+	  <div class="col-md-4 future-item" style="text-align:center;font-size:50px;"><span class="glyphicon glyphicon-road"></span></div>
+
+	  <div class="col-md-4 tagline censorship-item">Censorship</div>
+	  <div class="col-md-4 tagline revolutions-item">Revolutions</div>
+	  <div class="col-md-4 tagline future-item">Future</div>
+
+	</div>
+
+  	</div>
+
+  	<div class="container">
+  	<div class="jumbotron col-md-12">
+		HI
+	</div>
+  	</div>
 
   </body>
+
+  <script>
+
+  $('.censorship-item').hover(function () {
+  	$('.censorship-item').addClass('hover-effect');
+  }, function() {
+  	$('.censorship-item').removeClass('hover-effect');
+  });
+
+  $('.revolutions-item').hover(function () {
+  	$('.revolutions-item').addClass('hover-effect');
+  }, function() {
+  	$('.revolutions-item').removeClass('hover-effect');
+  });
+
+  $('.future-item').hover(function () {
+  	$('.future-item').addClass('hover-effect');
+  }, function() {
+  	$('.future-item').removeClass('hover-effect');
+  });
+
+  </script>
 
   </html>
