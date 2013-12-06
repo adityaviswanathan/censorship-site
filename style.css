@@ -13,6 +13,19 @@
 	color: #333;
 }
 
+.shrink {
+	font-size: 0px !important;
+	padding: 20px !important;
+}
+
+.section-item {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
 .censorship-item {
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -40,4 +53,58 @@
 .hover-effect {
 	color: #bcd4d4;	
 	cursor: pointer;
+}
+
+.menu-pane {
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.description-box {
+	opacity: 0;
+	display: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.description-box li {
+	font-size: 16px;
+}
+
+.closer {
+	opacity: 0;
+	font-size: 14px;
+	color: #b25438;
+	font-weight: bold;
+	cursor:default;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.side-pic {
+	max-width: 100%;
+	margin: 10px;
+}
+
+.timeline {
+	text-align: center;
+}
+
+.panel-adjust {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.detail-text {
+	font-size: 16px;
 }
