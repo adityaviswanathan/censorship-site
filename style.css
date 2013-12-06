@@ -91,6 +91,10 @@
 	transition: all 0.2s ease-in-out;
 }
 
+.closer:hover {
+	color: #333;
+}
+
 .side-pic {
 	max-width: 100%;
 	margin: 10px;
